@@ -1,0 +1,67 @@
+html {
+    background-color: black;
+    color:aliceblue; 
+    font-family: 'Georgia', 'Arial Narrow', Arial, sans-serif;
+}
+
+#name {
+    position: static;
+    text-align: center;
+}
+
+#intro {
+    font-size: x-large;
+    padding: 0%;
+    margin: 10%;
+}
+
+#motto {
+    font-family:'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-display: flex;
+    position: sticky;
+    margin-right: 50px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    background-color: #b1c5c3;
+    height: 30px;
+}
+
+ul li:hover {
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+ul li {
+    color:white;
+    display: inline-block;
+    padding: 5px; 
+    margin: 0 5%;
+    flex: 1;
+    text-align: center;
+}
+
+.center iframe{
+	display:inline;
+    align-items: center;
+    width:60%;
+    height:1000px;
+}
+
+input {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 40px;
+    padding: 5px;
+}
+
+label {
+    align-items: center;
+}

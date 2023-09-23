@@ -1,0 +1,42 @@
+<h1>hello!</h1>
+
+<script>
+    let myVariable = '42 dogs';
+    // let name = prompt("What is your name?");
+    let isBoss = name == "Boss";
+    // alert('My name is' + name);
+
+    let password = prompt("Enter password");
+    let attempt = 0;
+    while (password != "1234") {
+        attempt ++
+        if (attempt >= 3) {
+            alert('Too many attempts!');
+            break;
+        }
+        password = prompt("Enter password");
+    }
+
+    //foor loop
+    for (let attempt = 1; attempt <=3; attempt ++) {
+        if (password == 'secret') {
+            alert('Welcome!')
+            break;
+        } else if (attempt == 3) {
+            alert('Not many attempts limits left')
+        } else {
+            passord = prompt('Enter Password')
+        }
+    }
+
+    //function
+    function askPassword(correctPassword) {
+        var password = prompt('What is the password?');
+        if (password == correctPassword) {
+            alert("Correct!");
+        } else {
+            alert("Wrong!");
+        }
+    }
+    askPassword(1234)
+</script>
